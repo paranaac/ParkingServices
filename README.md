@@ -9,9 +9,9 @@ The Parking Services System (PSS) is a website that allows students and staff to
 The Parking Services System is a website that can be used to help effectively communicate information between Parking Services and students and faculty at Software University. This is a new software system designed to allow students and faculty to register vehicles with Parking Services, renew their registrations, add or update car information, and view their current status instantly, without having to wait in line at the Campus Services building. This website also allows parking services staff to keep a database of users previously or currently registered in their system, organize parking citations, have readily-accessible information about on-campus parking posted, and communicate with users via email.
 
 
-Students and faculty can:
+#Students and faculty can:
 
-#Account
+##Account
 
 •	login to their account or register a new account
 
@@ -19,7 +19,7 @@ Students and faculty can:
 
 •	renew registrations and pay fines
 
-#General/Informational
+##General/Informational
 
 •	view help topics and frequently asked questions
 
