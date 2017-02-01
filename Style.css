@@ -1,0 +1,146 @@
+﻿body {
+    font-size: 12px !important;
+    height: 100%;
+    color: #222222;
+    font-family: "Rockwell","Myriad Pro",Tahoma,Verdana,Geneva;
+    font-weight: 300;
+    padding: 0 !important;
+    margin: 0;
+    line-height: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1em;
+    padding: 0;
+    font-weight: 200;
+    color: #222;
+    font-family: "Helvetica Neue","Lucida Grande",sans-serif;
+}
+
+#form2 a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    color: #007074;
+}
+
+    #form2 a:hover {
+        color: #04aeb5;
+        text-decoration: underline;
+    }
+
+#MyContent {
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+
+blockquote {
+    background-color: rgba(249, 249, 249, 0.2);
+    border-left: 5px solid #ccc;
+    border-radius: 9px;
+    margin: 1.5em 6px;
+    font-size: 13px;
+    padding: 1.0em 10px;
+}
+
+    blockquote:before {
+        color: #222;
+        font-size: 4em;
+        line-height: 0.2em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+
+    blockquote p {
+        display: inline;
+    }
+
+
+input, button {
+    font-family: Georgia, Helvetica;
+    font-size: 16px;
+}
+
+a {
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #007074;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+    color: #004649;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: 0.74em Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    background: #fff;
+    color: #454545;
+}
+
+h1 {
+    font: bold 2em "Trebuchet MS", Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    padding: 2px 0 0 0px;
+    margin: 0;
+    color: #464548;
+    background: inherit;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #00447e !important;
+}
+
+h1, h2, h3, h4 {
+    margin: 5px 0px;
+    font-family: tahoma,helvetica,sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 2px 3px;
+    border: 1px solid #666;
+    color: #222222;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+#menu2 ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#menu2 a {
+    float: left;
+    width: 12.2em;
+    color: white;
+    text-align: center;
+    background-color: #808080;
+    border-right: 1px solid white;
+}
+
+    #menu2 a:hover {
+        background-color: #bab5b5;
+    }
+
+#menu2 li {
+    display: inline;
+}
